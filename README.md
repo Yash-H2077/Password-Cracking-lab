@@ -47,4 +47,10 @@ john --wordlist=rockyou.txt hash.txt --format=raw-md5  #speciy the wordlist dire
 
 ```
 ## Screenshots
-Refer to the above screenshots and output folders for better explanation 
+Refer to the above screenshots and output folders for better explanation  
+
+## Notes
+- Dictionary attacks are faster for common passwords.  
+- Brute-force is resource-intensive, therefore should be your last option.  
+- Hashcat's `--show` option is useful for retrieving cracked passwords.
+- John-the-Ripper's `--show` is useful for retrieving cracked passwords
