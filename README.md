@@ -46,11 +46,14 @@ John the Ripper is a open-source password cracking tool which supports multiple 
 john --wordlist=rockyou.txt hash.txt --format=raw-md5  #speciy the wordlist directory accordingly 
 
 ```
-## Screenshots
-Refer to the above screenshots and output folders for better explanation  
+
 
 ## Notes
 - Dictionary attacks are faster for common passwords.  
 - Brute-force is resource-intensive, therefore should be your last option.  
-- Hashcat's `--show` option is useful for retrieving cracked passwords.
+- Hashcat's `--show` option is useful for retrieving cracked passwords.  
 - John-the-Ripper's `--show` is useful for retrieving cracked passwords
+
+
+## Screenshots
+Refer to the above screenshots and output folders for better explanation  
